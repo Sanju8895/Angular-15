@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DataBindingComponent } from './data-binding/data-binding.component';
 import { CustomComponentComponent } from './custom-component/custom-component.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [  // components,Directive, Pipes
@@ -14,7 +15,8 @@ import { CustomComponentComponent } from './custom-component/custom-component.co
   ],
   imports: [  // module are being imported here
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],  // all services sre being added here
   bootstrap: [AppComponent]

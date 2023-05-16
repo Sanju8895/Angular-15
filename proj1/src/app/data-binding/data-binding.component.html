@@ -1,1 +1,24 @@
 <h3 id="header">Data binding in angular 15 :-</h3>
+<p>Auto data sycronous between component to view is called data binding</p>
+<p>There are 4 type of data binding in angular</p>
+<ul>
+    <li>String intropolation</li>
+    <li>Property Binding</li>
+    <li>Event Binding</li>
+    <li>Two way data binding</li>
+</ul>
+
+<h3>String Intropollation</h3>
+<p>My name is {{myName}}</p>
+
+<h3>Property Binding</h3>
+<p [innerText]="MyName2"></p>
+
+<h3>Event binding</h3>
+<button (click)="myFunc()">Click here to see the Full Name</button>
+
+<h3>Two way data Bining</h3>
+<p> <strong>Note:</strong>For two way data binding we need to import formsModule in root module </p>
+<h4>Type your Name here:</h4>
+<input type="text" [(ngModel)]="name2">
+<p> <strong>Your Name Preview:  </strong>{{name2}} </p>
