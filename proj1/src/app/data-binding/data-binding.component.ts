@@ -18,6 +18,7 @@ num1:number=102.00;
 
 // undefined type
 nonValue:undefined;
+name2:undefined;
 
 // null type
 currentvalue:null=null;
@@ -43,7 +44,7 @@ obj1:object ={fname: "Prakash", lname:"Nayak", fullName: function(){return `this
  myFunc(){
   let fName ="sanjaya";
   let lName ="Nayak";
-  return fName+ lName;
+  return alert(fName+ lName);
  }
 
 }
